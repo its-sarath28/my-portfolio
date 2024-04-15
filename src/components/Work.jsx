@@ -13,8 +13,8 @@ const Work = () => {
           <div className=" bg-[#e9edc9] p-2 rounded-md">
             <figure className="flex justify-center items-center overflow-hidden">
               <img
-                src="https://github.com/its-sarath28/todo-app-node-js/raw/main/assets/TODO.jpg"
-                alt=""
+                src="/recipe-app.png"
+                alt="recipe-app"
                 className="h-full w-full object-contain text-center hover:scale-105 rounded-md "
               />
             </figure>
@@ -34,10 +34,10 @@ const Work = () => {
           </div>
 
           <div className=" bg-[#EEF5FA] p-2 rounded-md">
-            <figure className="flex justify-center items-center overflow-hidden">
+            <figure className="flex justify-center items-center overflow-hidden h-[10rem] w-full">
               <img
-                src="https://github.com/its-sarath28/todo-app-node-js/raw/main/assets/TODO.jpg"
-                alt=""
+                src="/movie-booking.png"
+                alt="movie-booking-app"
                 className="h-full w-full object-contain text-center hover:scale-105 rounded-md "
               />
             </figure>
@@ -48,6 +48,12 @@ const Work = () => {
 
             <div className="flex gap-[20px] mt-[20px] mb-[10px]">
               <a
+                href="https://movie-booking-site-theta.vercel.app/"
+                className="bg-[#333] p-2 rounded-md text-white"
+              >
+                View demo
+              </a>
+              <a
                 href="https://github.com/its-sarath28/movie-booking-site"
                 className="bg-[#333] p-2 rounded-md text-white"
               >
@@ -57,9 +63,9 @@ const Work = () => {
           </div>
 
           <div className=" bg-[#EEF5FA] p-2 rounded-md">
-            <figure className="flex justify-center items-center overflow-hidden">
+            <figure className="flex justify-center items-center overflow-hidden h-[10rem] w-full">
               <img
-                src="https://github.com/its-sarath28/todo-app-node-js/raw/main/assets/TODO.jpg"
+                src="/med_store.png"
                 alt=""
                 className="h-full w-full object-contain text-center hover:scale-105 rounded-md "
               />
@@ -86,9 +92,9 @@ const Work = () => {
           </div>
 
           <div className=" bg-[#e9edc9] p-2 rounded-md">
-            <figure className="flex justify-center items-center overflow-hidden">
+            <figure className="flex justify-center items-center overflow-hidden h-[10rem] w-full">
               <img
-                src="https://github.com/its-sarath28/todo-app-node-js/raw/main/assets/TODO.jpg"
+                src="/TODO_APP.png"
                 alt=""
                 className="h-full w-full object-contain text-center hover:scale-105 rounded-md "
               />
@@ -109,9 +115,9 @@ const Work = () => {
           </div>
 
           <div className=" bg-[#e9edc9] p-2 rounded-md">
-            <figure className="flex justify-center items-center overflow-hidden">
+            <figure className="flex justify-center items-center overflow-hidden h-[10rem] w-full">
               <img
-                src="https://github.com/its-sarath28/todo-app-node-js/raw/main/assets/TODO.jpg"
+                src="https://i.pinimg.com/236x/89/25/a6/8925a64f6b430a0b1bb061dfbfa66bf4.jpg"
                 alt=""
                 className="h-full w-full object-contain text-center hover:scale-105 rounded-md "
               />
@@ -122,9 +128,6 @@ const Work = () => {
             </p>
 
             <div className="flex gap-[20px] mt-[20px] mb-[10px]">
-              <a href="" className="bg-[#333] p-2 rounded-md text-white">
-                View Demo
-              </a>
               <a
                 href="https://github.com/its-sarath28/git-finder"
                 className="bg-[#333] p-2 rounded-md text-white"

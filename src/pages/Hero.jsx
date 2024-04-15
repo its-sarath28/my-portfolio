@@ -36,7 +36,7 @@ const Hero = () => {
         <GiHamburgerMenu
           className={`${
             isDrawerOpen ? " invisible" : "block"
-          } text-red-400 text-[30px]`}
+          } text-white text-[30px]`}
           onClick={toggleDrawer}
         />
       </div>
@@ -61,7 +61,7 @@ const Hero = () => {
                   tab === "about"
                     ? "bg-gradient-to-br from-[#457FCA] to-[#5691C8]  rounded-md"
                     : "bg-transparent "
-                } text-white p-2 text-[20px] hover:underline`}
+                } text-white p-2 text-[20px]`}
               >
                 About
               </button>
@@ -74,7 +74,7 @@ const Hero = () => {
                   tab === "resume"
                     ? "bg-gradient-to-br from-[#457FCA] to-[#5691C8]  rounded-md"
                     : "bg-transparent "
-                } text-white p-2 text-[20px] hover:underline`}
+                } text-white p-2 text-[20px]`}
               >
                 Resume
               </button>
@@ -87,7 +87,7 @@ const Hero = () => {
                   tab === "work"
                     ? "bg-gradient-to-br from-[#457FCA] to-[#5691C8]  rounded-md"
                     : "bg-transparent "
-                } text-white p-2 text-[20px] hover:underline`}
+                } text-white p-2 text-[20px]`}
               >
                 Work
               </button>
@@ -100,7 +100,7 @@ const Hero = () => {
                   tab === "contact"
                     ? "bg-gradient-to-br from-[#457FCA] to-[#5691C8]  rounded-md"
                     : "bg-transparent "
-                } text-white p-2 text-[20px] hover:underline`}
+                } text-white p-2 text-[20px]`}
               >
                 Contact
               </button>
@@ -113,8 +113,8 @@ const Hero = () => {
         <div className=" bg-white h-fit mt-[30px] rounded-md px-3 pt-4 pb-5 flex flex-col justify-center items-center lg:sticky lg:top-5">
           <figure className="h-[200px] w-[200px]">
             <img
-              src="https://i.pinimg.com/236x/b6/f1/0e/b6f10ec813d48ae662aae9833a390f4d.jpg"
-              alt=""
+              src="/portfolio-image.jpg"
+              alt="portfolio"
               className="h-full w-full rounded-full object-contain"
             />
           </figure>
@@ -149,36 +149,36 @@ const Hero = () => {
           <div className="w-[90%] md:w-[85%] bg-slate-200 p-5 rounded-md">
             <ul className="">
               <li className="flex justify-start items-center gap-5 mb-6 border-b">
-                <div className="md:text-[20px] lg:text-[30px] bg-white p-2 rounded-md shadow-lg text-[#090608]">
+                <div className="text-[22px] lg:text-[30px] bg-white p-2 rounded-md shadow-lg text-[#090608]">
                   <IoPhonePortraitOutline />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[12px] md:text-[16px]">Phone</span>
-                  <span className="text-[12px] md:text-[14px] lg:text-[16px] font-[500]">
+                  <span className="text-[14px] lg:text-[16px] font-[500]">
                     +91 9778438763
                   </span>
                 </div>
               </li>
 
               <li className="flex justify-start items-center gap-5 border-b mb-6">
-                <div className="md:text-[20px] lg:text-[30px] bg-white p-2 rounded-md shadow-lg text-[#2ca062]">
+                <div className="text-[22px] lg:text-[30px] bg-white p-2 rounded-md shadow-lg text-[#2ca062]">
                   <MdOutlineEmail />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[12px] md:text-[16px]">Email</span>
-                  <span className="text-[12px] md:text-[14px] lg:text-[16px] font-[500]">
+                  <span className="text-[14px] lg:text-[16px] font-[500]">
                     iamsarathrs@gmail.com
                   </span>
                 </div>
               </li>
 
               <li className="flex justify-start items-center gap-5 border-b">
-                <div className="md:text-[20px] lg:text-[30px]  bg-white p-2 rounded-md shadow-lg text-[#a46c2c]">
+                <div className="text-[22px]  bg-white p-2 rounded-md shadow-lg text-[#a46c2c]">
                   <IoLocationSharp />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[12px] md:text-[16px]">Location</span>
-                  <span className="text-[12px] md:text-[14px] lg:text-[16px] font-[500]">
+                  <span className="text-[14px] lg:text-[16px] font-[500]">
                     Thiruvananthapuram, Kerala, India
                   </span>
                 </div>
@@ -186,12 +186,13 @@ const Hero = () => {
             </ul>
           </div>
 
-          <button
-            onClick={handleDownloadCV}
-            className="mt-[30px] bg-gradient-to-br from-[#457FCA] to-[#5691C8] w-fit lg:w-full rounded-md p-4 text-white text-[18px] md:text-[20px]"
+          <a
+            href="https://drive.google.com/file/d/1KLMkTMXV5MBvRfhyjzf27GqAcMddtGD4/view?usp=drive_link"
+            download="https://drive.google.com/file/d/1KLMkTMXV5MBvRfhyjzf27GqAcMddtGD4/view?usp=drive_link"
+            className="mt-[30px] bg-gradient-to-br from-[#457FCA] to-[#5691C8] w-fit lg:w-full text-center cursor-pointer rounded-md p-4 text-white text-[18px] md:text-[20px]"
           >
             Download CV
-          </button>
+          </a>
         </div>
 
         <div className="lg:col-span-2 flex flex-col gap-4">

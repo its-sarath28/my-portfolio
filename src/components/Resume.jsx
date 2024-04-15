@@ -38,8 +38,8 @@ const Resume = () => {
         <span className="h-[5px] w-[30%] bg-gradient-to-br from-[#457FCA] to-[#5691C8] ml-3 rounded-lg"></span>
       </div>
 
-      <div className="grid grid-cols-2 gap-[20px] mt-[20px]">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] mt-[20px]">
+        <div className=" order-2">
           <span className="text-[32px] flex items-center gap-[20px] mb-[20px]">
             <IoSchool /> Education
           </span>
@@ -61,7 +61,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <div>
+        <div className="order-1">
           <span className="text-[32px] flex items-center gap-[20px] mb-[20px]">
             <LiaSuitcaseSolid /> Experience
           </span>
@@ -82,7 +82,7 @@ const Resume = () => {
         </h2>
 
         <div className="flex items-center justify-center">
-          <div className="w-[500px]  flex flex-wrap justify-center">
+          <div className="max-w-[500px]  flex flex-wrap justify-center">
             {skills.map((skill, index) => (
               <span
                 key={index}
