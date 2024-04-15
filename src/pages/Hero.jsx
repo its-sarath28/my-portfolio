@@ -187,9 +187,9 @@ const Hero = () => {
           </div>
 
           <a
-            href="/public/Sarath_R_S_resume.pdf"
+            href="/Sarath_R_S_resume.pdf"
             rel="noreferrer noopener"
-            download={true}
+            download={"Sarath_R_S_resume.pdf"}
             className="mt-[30px] bg-gradient-to-br from-[#457FCA] to-[#5691C8] w-fit lg:w-full text-center cursor-pointer rounded-md p-4 text-white text-[18px] md:text-[20px]"
           >
             Download CV
