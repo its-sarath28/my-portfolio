@@ -14,3 +14,18 @@
 body {
   background: url("https://i.pinimg.com/236x/99/6b/52/996b52935a9bf11fd663d44150b6a32b.jpg");
 }
+
+/* Sticky header Starts */
+
+.sticky-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  color: black;
+  z-index: 30;
+  backdrop-filter: blur(5px);
+  transition: 0.2s ease-in;
+}
+
+/* Sticky header Ends */

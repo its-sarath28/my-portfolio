@@ -69,6 +69,7 @@ const Contact = () => {
               placeholder="Name *"
               name="name"
               className="w-full border-b-2 mb-[50px] p-3 focus:outline-none"
+              required
             />
 
             <input
@@ -76,12 +77,14 @@ const Contact = () => {
               placeholder="Email *"
               name="email"
               className="w-full border-b-2 mb-[50px] p-3 focus:outline-none"
+              required
             />
 
             <textarea
               placeholder="Message *"
               name="message"
               className=" resize-y p-3 w-full focus:outline-none border-b-2"
+              required
             ></textarea>
 
             <div className="flex justify-center mt-[30px]">
