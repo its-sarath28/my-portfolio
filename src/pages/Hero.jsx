@@ -144,7 +144,7 @@ const Hero = () => {
             <h3 className="font-[700] text-[20px]">Sarath R S</h3>
 
             <p className="font-[500] bg-slate-200 py-2 px-3 mt-4 rounded-md">
-              Web Developer
+              Full-stack Developer
             </p>
 
             <div className="flex items-center gap-[30px] my-[20px]">
