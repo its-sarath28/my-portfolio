@@ -25,7 +25,13 @@ const Work = () => {
 
             <div className="flex gap-[20px] mt-[20px] mb-[10px]">
               <a
-                href="https://github.com/its-sarath28/food-recipe-app"
+                href="https://foodior-the-recipe-app.vercel.app/"
+                className="bg-[#333] p-2 rounded-md text-white"
+              >
+                View demo
+              </a>
+              <a
+                href="https://github.com/its-sarath28/foodior-the-recipe-app"
                 className="bg-[#333] p-2 rounded-md text-white"
               >
                 Code
